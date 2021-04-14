@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+    frontend:
+        image: html-server-image:v1
+        build: ./front
+        ports:
+            - "8081:80"
+    backend: 
+        image: back-server-image:v2
+        build: ./back
+        ports:
+            - "5000:5000"
