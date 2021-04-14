@@ -1,6 +1,12 @@
 # decouverte_docker
+**Mode d'emploi :** 
+- Télécharge dossier
+- Powershell (dans dossier) docker-compose up --build
+- Run navigateur : localhost:80:81 (81 chez moi, 80 déja occupé)
 
-**Docker file.txt commandes générales :**
+**WSGI**
+
+**Contenu des Dockerfile/Docker-compose :**
 - FROM: img de base (source)
 - RUN : executer cmd conteneur
 - ADD : Ajouter fichier dans conteneur
@@ -10,7 +16,7 @@
 - CMD : commande par défaut pour éxécuter conteneur docker
 
 
-**Les commandes :**
+**Les commandes générales :**
 - Lancer conteneur : "-d" détacher conteneur + "-p 8080:80" définit port + "nom de l'image"
 - DOCKER PS : Docker en cours de fonctionnement (id, status ect..)
 - DOCKER SYSTEME PRUNE : Remove dockers pas utiles
