@@ -17,4 +17,4 @@
 - DOCKER PULL (+ nom de l'image) : Récupère img sans la lancer 
 - Docker IMAGE -a : affiche mes images
 - docker-compose up --build : build les images du docker compose
-- docker build -t ocr-docker-build : -t permet de donner un nom à votre image Docker + . est le répertoire où se trouve le Dockerfile (racine)
+- docker build -t (nom img) -docker-build : -t permet de donner un nom à votre image Docker + . est le répertoire où se trouve le Dockerfile (racine)
